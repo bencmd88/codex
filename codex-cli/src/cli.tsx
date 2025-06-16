@@ -56,7 +56,8 @@ import path from "path";
 import React from "react";
 
 // Call this early so `tail -F "$TMPDIR/oai-codex/codex-cli-latest.log"` works
-// immediately. This must be run with DEBUG=1 for logging to work.
+// immediately. Logging is enabled when the DEBUG env variable is set
+// (e.g., `DEBUG=1` or `DEBUG=true`).
 initLogger();
 
 // TODO: migrate to new versions of quiet mode
