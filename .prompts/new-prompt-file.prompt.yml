@@ -6,7 +6,7 @@
 # Note: Files in ~/.monica-code/prompts will also be read by Monica
 # Handlebars syntax like {{{ contextProviderTitle args }}} will be parsed
 # Unrecognized patterns like {{{ ./path/to/file.js }}} will attempt to read the specified file
-temperature: 0.0
+temperature: 0
 prompt: |
   {{{ diff }}}
 
